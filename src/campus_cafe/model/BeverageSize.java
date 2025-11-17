@@ -10,7 +10,7 @@ public enum BeverageSize {
 	private BigDecimal amount;
 
 	BeverageSize(BigDecimal bigDecimal) {
-		this.amount = amount;// TODO Auto-generated constructor stub
+		this.amount = bigDecimal;// TODO Auto-generated constructor stub
 	}
 
 	BigDecimal getSurcharge() {

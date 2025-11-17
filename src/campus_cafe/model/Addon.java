@@ -9,12 +9,12 @@ public enum Addon {
 	private BigDecimal amount;
 
 	Addon(BigDecimal bigDecimal) {
-		this.amount = amount;
+		this.amount = bigDecimal;
 	}
 
 	BigDecimal getSurcharge() {
 		// TODO Auto-generated method stub
-		return amount;
+		return this.amount;
 	}
 
 }
